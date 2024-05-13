@@ -8,10 +8,10 @@ const Footer = () => {
     <div className="flex flex-row justify-center ">
     <h1 className="text-4xl font-bold text-wrap w-40 font-serif m-4">My Log Travels</h1>
     <div className="flex flex-col justify-center items-start">
-        <h2 className="font-bold justify-items-start  m-4">Quick Links</h2>
+        <h2 className="font-bold justify-items-start  m-6">Quick Links</h2>
         <div className="flex flex-row">
 
-        <ul className="text-start mr-6 ">
+        <ul className="text-start me-8">
           <li className="p-2 text-sm ">Home</li>
           <li className="p-2 text-sm ">About Us</li>
           <li className="p-2 text-sm ">My TravelLogs</li>
@@ -19,7 +19,7 @@ const Footer = () => {
       
 
    
-      <ul className="text-start mr-6">
+      <ul className="text-start me-8">
         <li className="p-2 text-sm ">Travels</li>
         <li className="p-2 text-sm " >PromoFlights</li>
         <li className="p-2 text-sm ">Travel Routes</li>
@@ -27,7 +27,7 @@ const Footer = () => {
     
 
     
-      <ul className="text-start mr-6">
+      <ul className="text-start me-8">
         <li className="p-2 text-sm ">Recommendations</li>
         <li className="p-2 text-sm ">Guides</li>
         <li className="p-2 text-sm ">Blogs</li>
@@ -45,7 +45,7 @@ const Footer = () => {
     </div>
 
 </div>
-    <p className="text-center p-4 m-6" >2024-Group-4 My Log Travels.ALL Rights Reserved.</p>
+    <p className="text-center p-4 m-8 text-sm" >2024-Group-4 My Log Travels.ALL Rights Reserved.</p>
     
     </div>
     </>;
