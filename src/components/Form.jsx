@@ -3,7 +3,10 @@ import form_image from "../assets/form_image.jpg";
 
 const Form = () => {
   return (
-    <div className="flex flex-wrap justify-center py-20 bg-gray-200 gap-6 px-4">
+    <div
+      className="flex flex-wrap justify-center py-20 bg-gray-200 gap-6 px-4"
+      id="newsletter"
+    >
       <div className="flex flex-col">
         <h1 className="text-5xl text-center font-bold mb-4 mt-0 w-80 font-serif">
           Be updated!
