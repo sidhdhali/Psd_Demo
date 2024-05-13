@@ -4,7 +4,7 @@ import form_image from "../assets/form_image.jpg";
 const Form = () => {
   return (
     <div
-      className="flex flex-wrap justify-center py-20 bg-gray-200 gap-6 px-4"
+      className="flex flex-wrap justify-center py-20 bg-gray-200 gap-24 px-4"
       id="newsletter"
     >
       <div className="flex flex-col">

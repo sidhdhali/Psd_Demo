@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <Form />
-      <div className="bg-gray-300 p-10 flex justify-center gap-16 flex-wrap">
+      <div className="bg-gray-300 p-10 flex justify-center gap-24 flex-wrap">
         <h1 className="text-4xl font-bold text-wrap w-40 font-serif m-4">
           My Log Travels
         </h1>
@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <h2 className="font-bold">Quick Links</h2>
 
-            <div className="flex flex-wrap justify-center items-center gap-4">
+            <div className="flex flex-wrap justify-center items-center gap-10">
               <ul>
                 <li className="p-2 text-sm">Home</li>
                 <li className="p-2 text-sm ">About Us</li>

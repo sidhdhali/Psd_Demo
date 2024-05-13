@@ -9,7 +9,7 @@ const Customer = () => {
           have to say...
         </h1>
       </div>
-      <div className="flex justify-center flex-wrap gap-4">
+      <div className="flex justify-center flex-wrap gap-10">
         <div className="px-4 py-4 rounded-lg border border-black w-[300px]">
           <div className="flex justify-center mb-4">
             <img src={user} alt="user"></img>

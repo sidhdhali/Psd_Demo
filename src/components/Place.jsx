@@ -13,7 +13,7 @@ const Place = () => {
           Never Seen Before
         </h1>
       </div>
-      <div className="flex justify-center gap-4 lg:gap-10 flex-wrap mx-4">
+      <div className="flex justify-center gap-4 lg:gap-24 flex-wrap mx-4">
         <div>
           <hr className="h-px my-4 bg-black border-0 dark:bg-gray-700" />
           <div className="flex gap-14">
