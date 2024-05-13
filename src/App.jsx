@@ -6,9 +6,6 @@ function App() {
     <>
       <Header />
       <Main />
-      <div className="flex justify-center">
-        <h1 className="text-red-400 text-center">PSD</h1>
-      </div>
       <Footer />
     </>
   );
