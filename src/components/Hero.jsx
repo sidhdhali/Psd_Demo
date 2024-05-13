@@ -3,7 +3,7 @@ import HeroImage from "./assets/HeroImage.png";
 
 const Hero = () => {
   return (
-    <div className="flex justify-center items-center px-12 lg:px-72 py-40 mb-12 bg-white text-gray-900">
+    <div className="flex justify-center items-center px-8 lg:px-56 py-24 mb-12 bg-white text-gray-900">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-6">
         <div className="lg:w-1/2 mr-10 ">
           <h1 className="text-5xl font-bold mb-8">
@@ -17,7 +17,7 @@ const Hero = () => {
             Reserve Ticket
           </button>
         </div>
-        <div className="lg:w-1/2 mt-8 ml-10 lg:mt-6">
+        <div className="lg:w-1/2 mt-8 ml-4 lg:mt-4">
           <img src={HeroImage} alt="Hero" className="" />
         </div>
       </div>

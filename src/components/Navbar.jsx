@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <nav className="bg-white mt-2 flex justify-between lg:px-72 flex-wrap px-4">
-      <ul className="flex items-center py-6 gap-10">
+    <nav className="bg-white mt-4 flex justify-between lg:px-64 flex-wrap px-4">
+      <ul className="flex items-center py-6 gap-8">
         <li>
           <a className="text-gray-900 rounded-lg" href="/">
             Home
@@ -25,7 +25,7 @@ const Navbar = () => {
       </ul>
       <button className="contact-us">
         <a
-          className="border border-gray-900 text-gray-900 px-10 py-2 rounded-lg"
+          className="border border-gray-900 text-gray-900 px-10 py-2 rounded"
           href="#newsletter"
         >
           Contact Us

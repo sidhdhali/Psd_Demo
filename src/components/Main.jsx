@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <div className="">
       <div className="flex justify-center flex-wrap gap-6 mx-2 pt-20 pb-28 bg-gray-100">
-        <div className="w-96">
+        <div className="w-80 ml-10">
           <img src={hiking} width={400} alt="hiking"></img>
           <hr className="h-px my-4 bg-black border-0 dark:bg-gray-700 w-12" />
           <h2 className="text-2xl font-bold">
@@ -21,7 +21,7 @@ const Main = () => {
             like no other.
           </p>
         </div>
-        <div className="w-96">
+        <div className="w-80">
           <img src={mountain} width={400} alt="mountain"></img>
           <hr className="h-px my-4 bg-black border-0 dark:bg-gray-700 w-12" />
           <h2 className="text-2xl font-bold">
@@ -34,7 +34,7 @@ const Main = () => {
             resilience in the face of nature's grandeur.
           </p>
         </div>
-        <div className="w-96">
+        <div className="w-80 mr-10">
           <img src={wander} width={400} alt="wander"></img>
           <hr className="h-px my-4 bg-black border-0 dark:bg-gray-700 w-12" />
           <h2 className="text-2xl font-bold">
